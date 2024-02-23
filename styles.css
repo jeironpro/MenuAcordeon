@@ -7,7 +7,7 @@ body {
 
 .contenedor {
     background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 0 auto;
     width: 500px;
 }
@@ -22,16 +22,17 @@ body {
     font-weight: 700;
     margin: 20px;
     padding: 10px;
+    position: relative;
 }
 
 .lista li .fa-chevron-up {
     position: absolute;
-    right: 35%;
+    right: 2%;
 }
 
 .lista .descripcion {
     background-color: #999;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 5px;
     display: none;
     font-weight: 600;
     font-size: 13px;
@@ -51,10 +52,6 @@ body {
 @media screen and (max-width: 500px) {
     .contenedor {
         width: 400px;
-    }
-
-    .lista li .fa-chevron-up {
-        right: 15%;
     }
 
     .lista .descripcion {
